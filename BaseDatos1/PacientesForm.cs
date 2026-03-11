@@ -5,19 +5,15 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BaseDatos1
 {
-    public partial class Form3 : Form
+    public partial class PacientesForm : Form
     {
-        public Form3()
-        {
-            InitializeComponent();
-        }
-
-        /* private Usuario usuarioActual;
+        private Usuario usuarioActual;
         public PacientesForm(Usuario usuario)
         {
             InitializeComponent();
@@ -148,8 +144,8 @@ namespace BaseDatos1
         }
 
         private void InicializarOdontologos()
-            {
-                listaOdontologos = new List<Odontologo>
+        {
+            listaOdontologos = new List<Odontologo>
             {
             new Odontologo
                 {
@@ -167,16 +163,16 @@ namespace BaseDatos1
             DatosGlobales.ListaOdontologos = listaOdontologos;
 
             odontologosBinding = new BindingList<Odontologo>(listaOdontologos);
-                dgvOdontologos.DataSource = odontologosBinding;
+            dgvOdontologos.DataSource = odontologosBinding;
 
-                lblTotalOdontologos.Text = odontologosBinding.Count.ToString();
-                RefrescarOdontologos();
+            lblTotalOdontologos.Text = odontologosBinding.Count.ToString();
+            RefrescarOdontologos();
         }
 
 
         public void RefrescarOdontologos()
         {
-            listaOdontologos = DatosGlobales.ListaOdontologos; 
+            listaOdontologos = DatosGlobales.ListaOdontologos;
             odontologosBinding = new BindingList<Odontologo>(listaOdontologos);
             dgvOdontologos.DataSource = odontologosBinding;
             odontologosBinding = new BindingList<Odontologo>(listaOdontologos);
@@ -294,7 +290,7 @@ namespace BaseDatos1
             {
                 Name = "Alergias",
                 HeaderText = "Alergias",
-                DataPropertyName = "AlergiasDelPaciente", 
+                DataPropertyName = "AlergiasDelPaciente",
                 ReadOnly = true
             });
 
@@ -357,7 +353,7 @@ namespace BaseDatos1
             }
 
         }
-       
+
         public void AgregarPaciente(Paciente paciente)
         {
             listaPacientes.Add(paciente);
@@ -366,7 +362,7 @@ namespace BaseDatos1
 
         public void RefrescarPacientes()
         {
-            listaPacientes = DatosGlobales.ListaPacientes;  
+            listaPacientes = DatosGlobales.ListaPacientes;
             pacientesBinding = new BindingList<Paciente>(listaPacientes);
             dgvPacientes.DataSource = pacientesBinding;
             // Actualizar binding y grid
@@ -443,7 +439,7 @@ namespace BaseDatos1
         {
 
         }
-        
+
         private void txtBuscar_TextChanged(object sender, EventArgs e)
         {
             string criterio = txtBuscar.Text.ToLower();
@@ -551,22 +547,22 @@ namespace BaseDatos1
                 }
             }
         }
-       
+
         private void lblCambioMensual_Click(object sender, EventArgs e)
         {
 
         }
 
         private void dgvOdontologos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-{
-    if (e.RowIndex < 0) return;
+        {
+            if (e.RowIndex < 0) return;
 
-    Odontologo odontologo = odontologosBinding[e.RowIndex];
+            Odontologo odontologo = odontologosBinding[e.RowIndex];
 
-    string esp = string.Join(", ", odontologo.IDEspecialidades
-        .Select(id => DatosGlobales.CatalogoEspecialidades.FirstOrDefault(es => es.IDEspecialidad == id)?.Nombre)
-        .Where(n => !string.IsNullOrEmpty(n))
-    );
+            string esp = string.Join(", ", odontologo.IDEspecialidades
+                .Select(id => DatosGlobales.CatalogoEspecialidades.FirstOrDefault(es => es.IDEspecialidad == id)?.Nombre)
+                .Where(n => !string.IsNullOrEmpty(n))
+            );
 
             string mensaje =
             $"ID: {odontologo.IDOdontologo}\n" +
@@ -580,7 +576,7 @@ namespace BaseDatos1
 
 
             MessageBox.Show(mensaje, "Detalle del Odontólogo");
-}
+        }
 
 
         private void dgvPacientes_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -1410,10 +1406,5 @@ namespace BaseDatos1
         {
             Application.Exit();
         }
-
-        private void gbxInicio_Enter(object sender, EventArgs e)
-        {
-
-        }*/
     }
 }

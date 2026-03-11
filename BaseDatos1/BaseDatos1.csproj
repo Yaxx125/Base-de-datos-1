@@ -96,11 +96,11 @@
     <Compile Include="NuevoPacienteForm.Designer.cs">
       <DependentUpon>NuevoPacienteForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pacientes.cs">
+    <Compile Include="PacientesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pacientes.Designer.cs">
-      <DependentUpon>Pacientes.cs</DependentUpon>
+    <Compile Include="PacientesForm.Designer.cs">
+      <DependentUpon>PacientesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="NuevaCitaForm.cs">
       <SubType>Form</SubType>
@@ -129,6 +129,9 @@
     <Compile Include="Usuario.cs" />
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PacientesForm.resx">
+      <DependentUpon>PacientesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

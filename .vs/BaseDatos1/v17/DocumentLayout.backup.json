@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\BaseDatos1\\",
+  "WorkspaceRootPath": "C:\\Users\\luiss\\source\\repos\\Base-de-datos-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|c:\\users\\usuario\\onedrive\\documentos\\basedatos1\\basedatos1\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|solutionrelative:basedatos1\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|c:\\users\\luiss\\source\\repos\\base-de-datos-1\\basedatos1\\pacientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|solutionrelative:basedatos1\\pacientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|c:\\users\\luiss\\source\\repos\\base-de-datos-1\\basedatos1\\pacientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|solutionrelative:basedatos1\\pacientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|c:\\users\\luiss\\source\\repos\\base-de-datos-1\\basedatos1\\nuevopacienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|solutionrelative:basedatos1\\nuevopacienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|c:\\users\\luiss\\source\\repos\\base-de-datos-1\\basedatos1\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|solutionrelative:basedatos1\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|c:\\users\\luiss\\source\\repos\\base-de-datos-1\\basedatos1\\odontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CDEE3-E418-4C77-9F54-B5AD878880B4}|BaseDatos1\\BaseDatos1.csproj|solutionrelative:basedatos1\\odontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,15 +66,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pacientes.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\BaseDatos1\\BaseDatos1\\Pacientes.cs",
-              "RelativeDocumentMoniker": "BaseDatos1\\Pacientes.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\BaseDatos1\\BaseDatos1\\Pacientes.cs",
-              "RelativeToolTip": "BaseDatos1\\Pacientes.cs",
-              "ViewState": "AgIAACgFAAAAAAAAAAAqwIgFAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "NuevoPacienteForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luiss\\source\\repos\\Base-de-datos-1\\BaseDatos1\\NuevoPacienteForm.cs",
+              "RelativeDocumentMoniker": "BaseDatos1\\NuevoPacienteForm.cs",
+              "ToolTip": "C:\\Users\\luiss\\source\\repos\\Base-de-datos-1\\BaseDatos1\\NuevoPacienteForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BaseDatos1\\NuevoPacienteForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T23:28:12.946Z",
+              "WhenOpened": "2026-03-11T03:38:24.938Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacientesForm.cs",
+              "DocumentMoniker": "C:\\Users\\luiss\\Source\\Repos\\Base-de-datos-1\\BaseDatos1\\PacientesForm.cs",
+              "RelativeDocumentMoniker": "BaseDatos1\\PacientesForm.cs",
+              "ToolTip": "C:\\Users\\luiss\\Source\\Repos\\Base-de-datos-1\\BaseDatos1\\PacientesForm.cs",
+              "RelativeToolTip": "BaseDatos1\\PacientesForm.cs",
+              "ViewState": "AgIAAPkBAAAAAAAAAAASwBQCAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T03:30:39.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Odontologo.cs",
+              "DocumentMoniker": "C:\\Users\\luiss\\source\\repos\\Base-de-datos-1\\BaseDatos1\\Odontologo.cs",
+              "RelativeDocumentMoniker": "BaseDatos1\\Odontologo.cs",
+              "ToolTip": "C:\\Users\\luiss\\source\\repos\\Base-de-datos-1\\BaseDatos1\\Odontologo.cs",
+              "RelativeToolTip": "BaseDatos1\\Odontologo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T03:29:03.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PacientesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luiss\\Source\\Repos\\Base-de-datos-1\\BaseDatos1\\PacientesForm.cs",
+              "RelativeDocumentMoniker": "BaseDatos1\\PacientesForm.cs",
+              "ToolTip": "C:\\Users\\luiss\\Source\\Repos\\Base-de-datos-1\\BaseDatos1\\PacientesForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BaseDatos1\\PacientesForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T03:27:39.041Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\luiss\\source\\repos\\Base-de-datos-1\\BaseDatos1\\Paciente.cs",
+              "RelativeDocumentMoniker": "BaseDatos1\\Paciente.cs",
+              "ToolTip": "C:\\Users\\luiss\\source\\repos\\Base-de-datos-1\\BaseDatos1\\Paciente.cs",
+              "RelativeToolTip": "BaseDatos1\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T03:26:31.071Z",
               "EditorCaption": ""
             }
           ]
